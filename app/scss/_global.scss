@@ -48,3 +48,87 @@ a{
     margin:  0 auto;
 }
 
+
+.project-slides__dots {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    
+
+    
+   
+  }
+  
+  .project-slides__dots button {
+    border: none;
+  
+    background-color: #5c5c5c;
+    opacity: 0.5;
+    font-size: 0;
+    padding: 0;
+    width: 16px;
+    height: 3px;
+    border-radius: 3.5px;
+    cursor: pointer;
+    outline: none;
+    margin-right: 25px;
+    
+  }
+  
+  .project-slides__dots .slick-active button {
+    background-color: #feb960;
+  }
+
+
+
+.testimonials__logo-img{
+    opacity: 0.4;
+
+    filter: grayscale(100%);
+    transition: .5s;
+     
+  }
+
+  .testimonials__logo-img:hover{
+    opacity: 1;
+   
+
+  }
+
+
+  .global__top {
+    position: relative;
+    display: block;
+    padding-top: 124px;
+    padding-bottom: 60px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+
+    &::before{
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 124px;
+        background-color: #feb960;
+        top: 0;
+
+    }
+  
+}
+.global__top-subtitle {
+   color: #feb960; 
+   text-transform: uppercase;
+   font-size: 14px;
+   margin-bottom: 31px;
+   padding-top: 20px;
+}
+
+.global__top-title {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 65px;
+}
+
